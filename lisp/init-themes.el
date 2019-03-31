@@ -1,9 +1,12 @@
-(add-to-list 'load-path (expand-file-name "lisp/custom-themes" user-emacs-directory))
+;;; init-themes.el --- Defaults for themes -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
 
-(require-package 'color-theme)
 (require-package 'color-theme-sanityinc-solarized)
 (require-package 'color-theme-sanityinc-tomorrow)
-(setq-default custom-enabled-themes '(sanityinc-solarized-dark))
+
+;; If you don't customize it, this is the theme you get.
+(setq-default custom-enabled-themes '(sanityinc-tomorrow-bright))
 
 ;; Ensure that themes will be applied even if they have not been customized
 (defun reapply-themes ()
@@ -16,22 +19,29 @@
 (add-hook 'after-init-hook 'reapply-themes)
 
 
-
+;;------------------------------------------------------------------------------
 ;; Toggle between light and dark
+;;------------------------------------------------------------------------------
 (defun light ()
   "Activate a light color theme."
   (interactive)
-  (color-theme-sanityinc-solarized-light))
+  (setq custom-enabled-themes '(sanityinc-tomorrow-day))
+  (reapply-themes))
 
 (defun dark ()
   "Activate a dark color theme."
   (interactive)
-  (color-theme-sanityinc-solarized-dark))
+  (setq custom-enabled-themes '(sanityinc-tomorrow-bright))
+  (reapply-themes))
 
 
-;; (require 'color-theme-blackboard)
-;; (color-theme-blackboard)
-;; (require 'my-theme)
-;; (my-theme)
+(when (maybe-require-package 'dimmer)
+  (setq-default dimmer-fraction 0.15)
+  (add-hook 'after-init-hook 'dimmer-mode)
+  ;; TODO: file upstream as a PR
+  (after-load 'dimmer
+    (advice-add 'frame-set-background-mode :after (lambda (&rest args) (dimmer-process-all)))))
+
 
 (provide 'init-themes)
+;;; init-themes.el ends here

@@ -1,65 +1,113 @@
-# A usable emacs config
+;;; init-elpa.el --- Settings and helpers for package.el -*- lexical-binding: t -*-
+;;; Commentary:
+;;; Code:
 
-This is my emacs configuration tree which originates from [that of Purcell's](https://github.com/purcell/emacs.d). But I eliminated many functions of that.
+(require 'package)
 
-This config now supports for the following:
+
+;;; Install into separate package dirs for each Emacs version, to prevent bytecode incompatibility
+(let ((versioned-package-dir
+       (expand-file-name (format "elpa-%s.%s" emacs-major-version emacs-minor-version)
+                         user-emacs-directory)))
+  (setq package-user-dir versioned-package-dir))
 
-* C/C++
-* Matlab
-* Markdown/LaTeX
-* Haskell
 
-## Requirements
-* Emacs 24.3.1 or greater
-* clang 3.2-10 or greater
-* git
-* ghci 7.6.1 or greater
+
+;;; Standard package repositories
 
-## Installation
-To install, clone this repo to `~/.emacs.d`, i.e. ensure that the
-`init.el` contained in this repo ends up at `~/.emacs.d/init.el`:
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (proto (if no-ssl "http" "https")))
+  (add-to-list 'package-archives (cons "melpa" (concat proto "://melpa.org/packages/")) t)
+  ;; Official MELPA Mirror, in case necessary.
+  ;;(add-to-list 'package-archives (cons "melpa-mirror" (concat proto "://www.mirrorservice.org/sites/melpa.org/packages/")) t)
+  (if (< emacs-major-version 24)
+      ;; For important compatibility libraries like cl-lib
+      (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))
+    (unless no-ssl
+      ;; Force SSL for GNU ELPA
+      (setcdr (assoc "gnu" package-archives) "https://elpa.gnu.org/packages/"))))
 
-```
-git clone https://github.com/xyguo/emacs.d.git ~/.emacs.d
-```
+
+;;; On-demand installation of packages
 
-Upon starting up Emacs for the first time, further third-party
-packages will be automatically downloaded and installed.
+(require 'cl-lib)
 
-## Update
+(defun require-package (package &optional min-version no-refresh)
+  "Install given PACKAGE, optionally requiring MIN-VERSION.
+If NO-REFRESH is non-nil, the available package lists will not be
+re-downloaded in order to locate PACKAGE."
+  (or (package-installed-p package min-version)
+      (let* ((known (cdr (assoc package package-archive-contents)))
+             (versions (mapcar #'package-desc-version known)))
+        (if (cl-find-if (lambda (v) (version-list-<= min-version v)) versions)
+            (package-install package)
+          (if no-refresh
+              (error "No version of %s >= %S is available" package min-version)
+            (package-refresh-contents)
+            (require-package package min-version t))))))
 
-Update the config with `git pull`. You'll probably also want/need to update
-the third-party packages regularly too:
+(defun maybe-require-package (package &optional min-version no-refresh)
+  "Try to install PACKAGE, and return non-nil if successful.
+In the event of failure, return nil and print a warning message.
+Optionally require MIN-VERSION.  If NO-REFRESH is non-nil, the
+available package lists will not be re-downloaded in order to
+locate PACKAGE."
+  (condition-case err
+      (require-package package min-version no-refresh)
+    (error
+     (message "Couldn't install optional package `%s': %S" package err)
+     nil)))
 
-<kbd>M-x package-list-packages</kbd>, then <kbd>U</kbd> followed by <kbd>x</kbd>.
+
+;;; Fire up package.el
 
-## Troubleshooting
+(setq package-enable-at-startup nil)
+(package-initialize)
 
-### auto-complete-clang
-Note that the `ac-clang-flags` set in `init-ac-source.el` is platform-dependent. It's actually clang's include file search path. According to the [Troubleshooting section of auto-complete-clang](https://github.com/brianjcj/auto-complete-clang), you can use the following method to find the correct path:
+
+;; package.el updates the saved version of package-selected-packages correctly only
+;; after custom-file has been loaded, which is a bug. We work around this by adding
+;; the required packages to package-selected-packages after startup is complete.
 
-```
-echo "" | g++ -v -x c++ -E -
-```
+(defvar sanityinc/required-packages nil)
 
-and you'll get something like this:
+(defun sanityinc/note-selected-package (oldfun package &rest args)
+  "If OLDFUN reports PACKAGE was successfully installed, note it in `sanityinc/required-packages'."
+  (let ((available (apply oldfun package args)))
+    (prog1 available
+      (when (and available (boundp 'package-selected-packages))
+        (add-to-list 'sanityinc/required-packages package)))))
 
-```
-#include "..." search starts here：
-#include <...> search starts here：
- /usr/include/c++/4.8
- /usr/include/x86_64-linux-gnu/c++/4.8
- /usr/include/c++/4.8/backward
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include
- /usr/local/include
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
- /usr/include/x86_64-linux-gnu
- /usr/include
-End of search list.
-```
-Just use them to replace the corresponding string.
+(advice-add 'require-package :around 'sanityinc/note-selected-package)
 
-## Support/issues
-If you hit any problems, please first ensure that you are using the latest version of this code, and that you have updated your packages to the most recent available versions (see "Updates" above). If you still experience problems, go ahead and [file an issue on the github project](https://github.com/xyguo/emacs.d/issues).
+(when (fboundp 'package--save-selected-packages)
+  (require-package 'seq)
+  (add-hook 'after-init-hook
+            (lambda () (package--save-selected-packages
+                   (seq-uniq (append sanityinc/required-packages package-selected-packages))))))
 
--Xiang-Yu Guo
+
+(require-package 'fullframe)
+(fullframe list-packages quit-window)
+
+
+(defun sanityinc/set-tabulated-list-column-width (col-name width)
+  "Set any column with name COL-NAME to the given WIDTH."
+  (when (> width (length col-name))
+    (cl-loop for column across tabulated-list-format
+             when (string= col-name (car column))
+             do (setf (elt column 1) width))))
+
+(defun sanityinc/maybe-widen-package-menu-columns ()
+  "Widen some columns of the package menu table to avoid truncation."
+  (when (boundp 'tabulated-list-format)
+    (sanityinc/set-tabulated-list-column-width "Version" 13)
+    (let ((longest-archive-name (apply 'max (mapcar 'length (mapcar 'car package-archives)))))
+      (sanityinc/set-tabulated-list-column-width "Archive" longest-archive-name))))
+
+(add-hook 'package-menu-mode-hook 'sanityinc/maybe-widen-package-menu-columns)
+
+
+(provide 'init-elpa)
+;;; init-elpa.el ends here

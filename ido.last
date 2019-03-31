@@ -31,6 +31,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/yong/.emacs.d/"
  "/media/yong/Data/temp/programming/SBT test/data/"
  "c:/yong/GIT/MyEmacs/"
  "c:/yong/GIT/Knotes/"
@@ -66,15 +67,19 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/media/yong/Data/temp/programming/SBT test/data/" (23703 1053 522366 700000) "Untitled Folder/" "show.7z" "sanre.7z" "New Text Document.txt" "MKD-S03.7z" "LAF-87.7z" "jp3394.7z" "HEYZO-0869.7z" "good.7z" "DLLAFBD-88-B.7z" "ALL .7z" "1199_full.7z" "1064.7Z" "081017_001.7z" "042816_288.7z" "031417-498.7z" "011218_001.7z" "../" "./")
+ ("/home/yong/.emacs.d/" (23713 6353 783988 126000) "history" "init.el" "pyim/" "custom.el" "games/" "./" "transient/" "#!home!yong!Yong!git-notes!AccuRev.org#" ".org-timestamps/" "bookmarks" "README.md" "lisp/" "saves/" ".session" ".smex-items" ".emacs.desktop" "snippets/" "elpa-25.1/" ".directory" "plantuml.jar" "recentf" "../" "smex-items" "init.elc" "ido.last" ".gitignore" "auto-save-list/" "site-lisp/" "#!home!yong!.emacs.d!lisp!init-exec-path.el#" ".uptimes.el" "ensime/" "org-clock-save.el" "js/" ".git/" "projectile-bookmarks.eld" "Documents/" "ac-comphist.dat" "var/" "elpa/")
+
+ ("/home/yong/New Folder/emacs.d/" (23712 64729 287189 480000) "init.el" "./" ".dir-locals.el" "README.md" "lisp/" ".agignore" "LICENSE" "../" "test-startup.sh" ".gitignore" "site-lisp/" ".git/" ".travis.yml")
+
+ ("/home/yong/New Folder/emacs.d/lisp/" (23712 64729 287189 480000) "init-elpa.el" "init-yaml.el" "init-smex.el" "init-textile.el" "init-elm.el" "init-windows.el" "init-sql.el" "init-spelling.el" "init-terraform.el" "./" "init-css.el" "init-folding.el" "init-isearch.el" "init-clojure.el" "init-toml.el" "init-projectile.el" "init-utils.el" "init-github.el" "init-paredit.el" ".dir-locals.el" "init-uniquify.el" "init-themes.el" "init-haml.el" "init-mmm.el" "init-dired.el" "init-common-lisp.el" "init-gui-frames.el" "init-ledger.el" "init-slime.el" "init-php.el" "init-company.el" "init-javascript.el" "init-ivy.el" "init-locales.el" "init-lisp.el" "init-python.el" "init-csv.el" "init-docker.el" "init-git.el" "init-purescript.el" "../" "init-ruby.el" "init-flycheck.el" "init-recentf.el" "init-nix.el" "init-whitespace.el" "init-darcs.el" "init-grep.el" "init-benchmarking.el" "init-site-lisp.el" "init-hippie-expand.el" "init-ibuffer.el" "init-vc.el" "init-markdown.el" "init-clojure-cider.el" "init-exec-path.el" "init-xterm.el" "init-nxml.el" "init-erlang.el" "init-crontab.el" "init-rust.el" "init-html.el" "init-http.el" "init-sessions.el" "init-rails.el" "init-haskell.el" "init-osx-keys.el" "init-misc.el" "init-editing-utils.el" "init-dash.el" "init-org.el" "init-compile.el" "init-frame-hooks.el")
+
+ ("/media/yong/Data/temp/programming/SBT test/data/" (23610 45864 589923 600000) "Untitled Folder/" "show.7z" "sanre.7z" "New Text Document.txt" "MKD-S03.7z" "LAF-87.7z" "jp3394.7z" "HEYZO-0869.7z" "good.7z" "DLLAFBD-88-B.7z" "ALL .7z" "1199_full.7z" "1064.7Z" "081017_001.7z" "042816_288.7z" "031417-498.7z" "011218_001.7z" "../" "./")
 
  ("/home/yong/" (23702 60033 949957 922000) "linux-firmware/" ".config/" ".dbus/" ".gtkrc-2.0" "./" "Videos/" ".java/" "project/" ".profile" "Music/" "org.kde.plasma.clipboard/" ".bashrc" ".org-timestamps/" ".ivy2/" ".emacs.d/" "Downloads/" ".pki/" ".local/" ".bash_logout" ".gphoto/" "Templates/" ".kde/" ".directory" "../" ".gitconfig" "IdeaProjects/" ".bash_history" "Pictures/" ".nano/" ".scala_history" ".gconf/" ".gnupg/" "New Folder/" ".Xauthority" "Public/" ".android/" ".sbt/" "Desktop/" ".gnome/" ".xsession-errors" "Yong/" "Documents/" ".mozilla/" ".cache/" ".IntelliJIdea2018.3/")
 
  ("/home/yong/Yong/git-notes/" (23701 39585 165808 883000) "Yong.java" "Emacs/" "Reveal.org" "AccuRev.org" "Img/" "./" "Javascript.org" "Reveal.html" "MyUbuntu.org" "agendadefects.org" "myLinux.org" "English/" "Scala.org" "French/" "../" "Angular.org" "index.org" "org-mode+Reveal.js Slides.org" "sitemap.org" "agenda/" "Quotes.org" ".gitignore" "Chinese/" "Misc.org" "temp-file.org" "styles/" "Guice.org" "Misc/" "Java/" "FlatMapExample.java" ".git/" "Git.org" "yong.java" "org-html-themes/")
 
  ("/home/yong/Yong/git-notes/Emacs/" (23701 39583 433808 211000) "Emacs.org" "emacs_navigation.org" "./" "emacs.d.org" "../" "Emacs.Navigation.org")
-
- ("/home/yong/.emacs.d/" (23701 39643 849830 494000) "init.el" "pyim/" "games/" "./" ".org-timestamps/" "bookmarks" "README.md" "lisp/" "snippets/" ".directory" "plantuml.jar" "recentf" "../" "smex-items" "init.elc" "ido.last" ".gitignore" "auto-save-list/" "ensime/" "org-clock-save.el" "js/" ".git/" "projectile-bookmarks.eld" "Documents/" "ac-comphist.dat" "elpa/")
 
  ("/home/yong/Yong/" (23694 37804 733510 296000) "./" "git-notes/" "../" "My Notes/" "myemacs/")
 
