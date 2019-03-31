@@ -1,0 +1,24 @@
+* Monday, 25/09/2017
+
+** 13:39 tteststs
+
+
+Quick summary:
+
+    To create a new journal entry: C-c C-j
+    To open today’s journal without creating a new entry: C-u C-c C-j
+
+In calendar view:
+
+    j to view an entry
+    C-j to view an entry but not switch to it
+    i j to add a new entry
+    [ to go to previous entry
+    ] to go to next entry
+
+When viewing a journal entry:
+
+    C-c C-f to view next entry
+    C-c C-b to view previous entry
+
+** 14:29 test

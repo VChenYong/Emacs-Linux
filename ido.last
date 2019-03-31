@@ -1,0 +1,185 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/yong/Yong/" . "git-notes/")
+ ("/home/" . "yong/")
+ ("/home/yong/" . "Yong/")
+ ("/home/yong/.emacs.d/" . "lisp/")
+ ("c:/yong/GIT/Knotes/" . "doc/")
+ ("c:/yong/GIT/MyEmacs/" . "lisp/")
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/request-types/" . "components/")
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/" . "request-types/")
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/" . "html5/")
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/request-types/components/" . "multiple-requests-grid/")
+ ("c:/CodeSource/" . "eou/")
+ ("c:/yong/My Notes/" . "Git-Notes/")
+ ("c:/yong/tools/emacs/.emacs.d/" . "New One/")
+ ("c:/Users/yong.chen/Desktop/New folder/" . "saveWorkLoadPlannerPayLoad.json/")
+ ("c:/Users/yong.chen/Desktop/" . "New folder/")
+ ("c:/Users/yong.chen/" . "Desktop/")
+ ("c:/Users/" . "yong.chen/")
+ ("c:/dev/" . "cmd/")
+ ("c:/yong/GIT/git-notes/" . "agenda/")
+ ("c:/yong/GIT/my-note/" . "Emacs/")
+ ("c:/yong/tools/emacs/" . ".emacs.d/")
+ ("c:/yong/tools/" . "emacs/")
+ ("c:/yong/GIT/" . "git-notes/")
+ ("c:/yong/" . "tools/")
+ ("c:/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/media/yong/Data/temp/programming/SBT test/data/"
+ "c:/yong/GIT/MyEmacs/"
+ "c:/yong/GIT/Knotes/"
+ "c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/request-types/components/multiple-requests-grid/"
+ "c:/yong/GIT/git-notes/agenda/"
+ "c:/yong/GIT/git-notes/Emacs/"
+ "c:/yong/tools/emacs/.emacs.d/New One/"
+ "c:/yong/tools/emacs/.emacs.d/"
+ "c:/yong/GIT/git-notes/"
+ "c:/Users/yong.chen/Desktop/New folder/GenerateWorkload/"
+ "c:/Users/yong.chen/Desktop/New folder/"
+ "c:/Users/yong.chen/Desktop/New folder/saveWorkLoadPlannerPayLoad.json/"
+ "c:/Users/yong.chen/Desktop/"
+ "c:/dev/cmd/"
+ "c:/yong/GIT/my-note/Emacs/"
+ "c:/yong/GIT/MyEmacs/lisp/"
+ "c:/yong/GIT/my-note/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "Kronos_request_manager.org"
+ "Kronos_Staffing_project.org"
+ "Kronos_index.org"
+ "defects.org"
+ "EmacsTest.gpg"
+ "Kronos_Falcon.org"
+ "org-clock-save.el"
+ "AccuRev.org"
+ "[payload]StaffingMatrix.json"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/media/yong/Data/temp/programming/SBT test/data/" (23703 1053 522366 700000) "Untitled Folder/" "show.7z" "sanre.7z" "New Text Document.txt" "MKD-S03.7z" "LAF-87.7z" "jp3394.7z" "HEYZO-0869.7z" "good.7z" "DLLAFBD-88-B.7z" "ALL .7z" "1199_full.7z" "1064.7Z" "081017_001.7z" "042816_288.7z" "031417-498.7z" "011218_001.7z" "../" "./")
+
+ ("/home/yong/" (23702 60033 949957 922000) "linux-firmware/" ".config/" ".dbus/" ".gtkrc-2.0" "./" "Videos/" ".java/" "project/" ".profile" "Music/" "org.kde.plasma.clipboard/" ".bashrc" ".org-timestamps/" ".ivy2/" ".emacs.d/" "Downloads/" ".pki/" ".local/" ".bash_logout" ".gphoto/" "Templates/" ".kde/" ".directory" "../" ".gitconfig" "IdeaProjects/" ".bash_history" "Pictures/" ".nano/" ".scala_history" ".gconf/" ".gnupg/" "New Folder/" ".Xauthority" "Public/" ".android/" ".sbt/" "Desktop/" ".gnome/" ".xsession-errors" "Yong/" "Documents/" ".mozilla/" ".cache/" ".IntelliJIdea2018.3/")
+
+ ("/home/yong/Yong/git-notes/" (23701 39585 165808 883000) "Yong.java" "Emacs/" "Reveal.org" "AccuRev.org" "Img/" "./" "Javascript.org" "Reveal.html" "MyUbuntu.org" "agendadefects.org" "myLinux.org" "English/" "Scala.org" "French/" "../" "Angular.org" "index.org" "org-mode+Reveal.js Slides.org" "sitemap.org" "agenda/" "Quotes.org" ".gitignore" "Chinese/" "Misc.org" "temp-file.org" "styles/" "Guice.org" "Misc/" "Java/" "FlatMapExample.java" ".git/" "Git.org" "yong.java" "org-html-themes/")
+
+ ("/home/yong/Yong/git-notes/Emacs/" (23701 39583 433808 211000) "Emacs.org" "emacs_navigation.org" "./" "emacs.d.org" "../" "Emacs.Navigation.org")
+
+ ("/home/yong/.emacs.d/" (23701 39643 849830 494000) "init.el" "pyim/" "games/" "./" ".org-timestamps/" "bookmarks" "README.md" "lisp/" "snippets/" ".directory" "plantuml.jar" "recentf" "../" "smex-items" "init.elc" "ido.last" ".gitignore" "auto-save-list/" "ensime/" "org-clock-save.el" "js/" ".git/" "projectile-bookmarks.eld" "Documents/" "ac-comphist.dat" "elpa/")
+
+ ("/home/yong/Yong/" (23694 37804 733510 296000) "./" "git-notes/" "../" "My Notes/" "myemacs/")
+
+ ("/home/" (23685 25439 811946 159000) "./" "yong/" "../" "lost+found/")
+
+ ("/home/yong/.emacs.d/lisp/" (23694 37508 768722 550000) "init-elpa.el" "init-pyim.el" "init-common-sittings.el" "coding-system.el" "custom-themes/" "init-spelling.el" "./" ".#init-my-org.el" "cygwin-mount.el" "init-utils.el" "init-themes.el" "init-matlab.el" "init-dired.el" "init-my-org.elc" "read-only.el" "setup-cygwin.el" "init-auto-complete.el" "init-space-themes.el" "init-ac-source.el" "init-ido.el" "init-git.el" "../" "init-recentf.el" "init-hippie-expand.el" "editing-utils/" "init-markdown.el" "init-tabbar.el" "init-auctex.el" "init-fonts.el" "init-yasnippet.el" "init-haskell.el" "init-editing-utils.el" "init-my-org.el" "init-org.el" "init-helm.el")
+
+ ("c:/yong/GIT/Knotes/" (23607 23701 0 0) "WorkLog.org" "WFC_projects.org" "training.org" "styles/" "solarized-dark.min.css" "project/" "PARS.org" "Mokito_static_Method_test.org" "kronos_yong.org" "Kronos_WIM.org" "kronos_temp.org" "Kronos_Staffing_project.org" "Kronos_request_manager.org" "Kronos_onDuty.org" "Kronos_index.org_archive" "Kronos_index.org" "Kronos_Falcon.org" "Kronos_Evn_setup.org" "Kronos_Docker.org" "Kronos_Dev-Notes.org" "Kronos_DB_tips.org" "Kronos_archive.org" "K-tools/" "index.org" "Images/" "howtos/" "doc/" "DailyTasks.org" "AngularJs.org" "AccuRev.org" "../" "./")
+
+ ("c:/yong/GIT/MyEmacs/" (23607 24879 0 0) "yong.zip" "xkcd/" "var/" "url/" "snippets/" "smex-items" "server/" "recentf~" "recentf" "README.md" "pyim/" "plantuml.jar" "org-clock-save.elc" "org-clock-save.el" "lisp/" "js/" "init.elc" "init.el" "image-dired/" "ido.last" "eshell/" "ensime/" "elpa/" "Documents/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".org-timestamps/" ".mc-lists.elc" ".mc-lists.el" ".history" ".gnupg/" ".gitignore" ".git/" ".emacs.d/" "../" "./")
+
+ ("c:/yong/GIT/Knotes/doc/" (23607 22591 0 0) "~$Staffing Dashboard Engineering Kick-off.pptx" "WFS - Development Environment Setup .docx" "WFF- Engine batch request submission and status service low design.docx" "Staffing Dashboard Engineering Kick-off.pptx" "Shift builder.docx" "Shift Builder Cheat Sheet.doc" "Shift Builder Cheat Sheet (2).doc" "How To restart osgi bundles without restarting wfc.docx" "../" "./")
+
+ ("c:/yong/GIT/MyEmacs/lisp/" (23606 10793 0 0) "setup-cygwin.elc" "setup-cygwin.el" "init-yasnippet.elc" "init-yasnippet.el" "init-utils.elc" "init-utils.el" "init-themes.elc" "init-themes.el" "init-tabbar.elc" "init-tabbar.el" "init-space-themes.elc" "init-space-themes.el" "init-recentf.elc" "init-recentf.el" "init-pyim.elc" "init-pyim.el" "init-org.elc" "init-org.el" "init-my-org.elc" "init-my-org.el" "init-matlab.elc" "init-matlab.el" "init-markdown.elc" "init-markdown.el" "init-ido.elc" "init-ido.el" "init-hippie-expand.elc" "init-hippie-expand.el" "init-helm.elc" "init-helm.el" "init-haskell.elc" "init-haskell.el" "init-git.elc" "init-git.el" "init-fonts.elc" "init-fonts.el" "init-elpa.elc" "init-elpa.el" "init-editing-utils.elc" "init-editing-utils.el" "init-dired.elc" "init-dired.el" "init-common-sittings.elc" "init-common-sittings.el" "init-auto-complete.elc" "init-auto-complete.el" "init-auctex.elc" "init-auctex.el" "init-ac-source.elc" "init-ac-source.el" "everything.elc" "everything.el" "editing-utils/" "cygwin-mount.elc" "cygwin-mount.el" "custom-themes/" "coding-system.elc" "coding-system.el" "../" "./")
+
+ ("c:/yong/GIT/MyEmacs/yong/init/" (23524 33893 0 0) "init-required.el" "init-my-org.elc" "init-my-org.el" "init-common-sittings.elc" "init-common-sittings.el" "init-aspell.elc" "init-aspell.el" "../" "./")
+
+ ("f:/Yong/wtktest/test/Misc/wfc_install/" (23580 19648 0 0) "wfc_install.iml" "wfc_install toolbar.txt" "uninstall.opts" "stop.rhino.js" "stop.nashorn.js" "server.properties" "run.bat" "robocopy_tasks.xml" "robocopy.properties" "readme.txt" "pseudoTranslator/" "microtest_UNITTEST.properties" "microtest_stream.properties" "microtest_junit.xml" "licenses/" "lib/" "DBScripts/" "DBPatcher/" "db-switcher.properties" "build_wfc.xml" "build_microtest.xml" "build_dynatrace.xml" "build_db_switcher.xml" "build_db.xml" "build_common.xml" "build_backup.xml" "build.xml" "build.gradle" "batch/" "AutoInstaller.docx" "7.0_ALL_100000_v2.lic" ".idea/" ".gradle/" ".#build.gradle" "../" "./")
+
+ ("c:/Users/yong.chen/Desktop/" (23396 18857 0 0) "~WRL0478.tmp" "~$quest URL.docx" "~$en request manager with time off request as default request type.docx" "[KronFR] QAMemmoryLeaks.mp4" "[KronFR] Performance.mp4" "Yong.PerfmonCfg" "Workforce One Selfservice.url" "test/" "task.txt" "Snipaste_2018-06-28_08-50-21.jpg" "ServiceNow.url" "request-types-resources.stub.js" "Request URL.docx" "Remote Kronos VPN.url" "Profile-20180328T203114.json" "perfs 2018-6-29.xlsx" "perfs -new-yong.xlsx" "perfs -new .xlsx" "perfs - Copy.xlsx" "Perf.docx" "perf/" "OSR vs TOR .xlsx" "Open request manager with time off request as default request type.docx" "New Text Document.txt" "MyWorkInspired.url" "mollie/" "memory.docx" "memory test.PerfmonCfg" "LICEcap.lnk" "Keymap-Emacs copy.pdf" "jqwidgets-ver3.8.2-src.zip" "jqwidgets-ver3.8.2-src/" "Internet Explorer.lnk" "IMG_20180617_111346.jpg" "IMG_20180203_145818.jpg" "FW cleanup date-time.js .msg" "Formulaire de remboursement daide financière à la garde denfants.docx" "errormessage.jpg" "Doc3.docx" "desktop.ini" "DDPEAdminUtilities/" "configuration.jpg" "ConEmuTrap/" "ConEmu64 - Shortcut.lnk" "commentNoteForEmp.json" "commentNote.json" "Beyond Compare 3.lnk" "backend change status.chls" "backend call.chls" "andre/" "9815686-dzone-refcard129-restfularchitecture.pdf" "9815686-dzone-refcard129-restfularchitecture (2).pdf" "9815686-dzone-refcard129-restfularchitecture (1).pdf" "2018-04-19_retest_on_VM.mp4" ".#commentNoteForEmp.json" ".#commentNote.json" "../" "./")
+
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/request-types/components/multiple-requests-grid/" (23391 25252 0 0) "multiple-requests-grid.module.js" "multiple-requests-grid.html" "multiple-requests-grid.controller.spec.js" "multiple-requests-grid.controller.js" "multiple-requests-grid.constants.js" "multiple-requests-grid.config.js" "multiple-requests-grid.component.js" "index.js" "../" "./")
+
+ ("c:/dev/cmd/" (23308 1160 0 0) "yong2.bat" "yong.bat" "yong - Copy.bat" "yong - Copy (2).bat" "TestProject/" "sbt_create.bat" "runSql.bat" "Restore.DB.bat" "patch.bat" "keepPassword.bat" "jumbos.txt" "Jumbos/" "DBScripts/" "DB tool scripts.zip" "DB tool scripts/" "clean.bat" "clean jsp.bat" "clean jsp pages.cmd" "backupDB.bat" "../" "./")
+
+ ("c:/yong/GIT/git-notes/" (23335 55732 0 0) "Yong.java" "Yong.class" "temp-file.org" "styles/" "sitemap.org" "Scala.org" "Reveal.org" "Reveal.html" "Quotes.org" "org-mode+Reveal.js Slides.org" "org-mode+Reveal.js Slides.html" "MyUbuntu.org" "Misc.org" "Misc/" "Javascript.org" "Java/" "index.org" "Img/" "Guice.org" "Git.org" "French/" "FlatMapExample.java" "FlatMapExample.class" "English/" "Emacs/" "Chinese/" "capture/" "Angular.org" "agendadefects.org" "agenda/" "AccuRev.org" ".gitignore" ".git/" "../" "./")
+
+ ("c:/yong/GIT/git-notes/Emacs/" (23276 27968 0 0) "emacs_navigation.org" "Emacs.org" "Emacs.Navigation.org" "emacs.d.org" "../" "./")
+
+ ("c:/yong/GIT/git-notes/agenda/" (23335 54056 0 0) "work.org" "personal.org" "learn.org" "journal.org" "home.org" "defects.org" "../" "./")
+
+ ("c:/Users/yong.chen/" (23346 10419 0 0) "workspace/" "VirtualBox VMs/" "Videos/" "Templates/" "Start Menu/" "Snapshots/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "pmd-eclipse.log" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{4e074668-0c1c-11e7-a943-e41d2d718a20}.TM.blf" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.blf" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.2.regtrans-ms" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.1.regtrans-ms" "NTUSER.DAT{4e074667-0c1c-11e7-a943-e41d2d718a20}.TxR.0.regtrans-ms" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "KronosInstalls/" "java_error_in_idea.hprof" "IdeaProjects/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "Application Data/" "AppData/" ".yjp/" ".vscode/" ".VirtualBox/" ".sonarlint/" ".scala_history" ".sbt/" ".m2/" ".ivy2/" ".IntelliJIdea2018.2/" ".IntelliJIdea2018.1/" ".IntelliJIdea2017.3/" ".idea-build/" ".Icecream Screen Recorder/" ".gradle/" ".Dynatrace/" ".config/" ".android/" "../" "./")
+
+ ("c:/Users/" (23348 53083 0 0) "yong.chen/" "SQLTELEMETRY/" "Public/" "MSSQLSERVER/" "MSSQLFDLauncher/" "desktop.ini" "Default User/" "Default/" "All Users/" "Administrator/" "../" "./")
+
+ ("c:/yong/" (23300 6210 0 0) "wallPapers/" "tools/" "temp/" "share/" "Program/" "Outlook Archives/" "OnDuty/" "My Notes/" "lightbend/" "Kronovation.docx" "intellij-java-google-style.xml" "IDE/" "GoProject/" "Git_Local_Project/" "GIT/" "../" "./")
+
+ ("c:/yong/GIT/" (23330 38366 0 0) "Yong-Notes/" "searcher/" "plugin/" "otherEmacs/" "Notes/" "MyEmacs/" "my-new_emacs/" "Knotes/" "JavaNotes/" "gradle/" "git-notes/" "CMD/" "buildtool/" ".sbtopts" "../" "./")
+
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/request-types/" (23252 40039 0 0) "utils/" "timeoff/" "test-runner.js" "state-management/" "request-types.run.js" "request-types.module.js" "properties/" "openshift/" "mocks/" "less/" "karma.conf.js" "data-management/" "configurator.js" "components/" "common/" "../" "./")
+
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/" (23238 23021 0 0) "translationsupport/" "strophe.min.js" "strophe.js" "properties/" "playerProductInstall.swf" "kronos_navigator.js" "html5/" "html/" "assets/" "AC_OETags.min.js" "AC_OETags.js" ".gitignore" "../" "./")
+
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/" (23252 39741 0 0) "workloadplanner-actions/" "workloadplanner/" "widget-wrapper.js" "widget-addons/" "tools/" "timestamp/" "timecard-actions/" "timecard/" "thirdparty/" "tests-karma-config.js" "tests-karma-config-timecard.js" "tests-karma-config-others.js" "tests-karma-config-auditing.js" "tests-karma-config-addons.js" "tests-karma-config-activity.js" "testHelpers.js" "test-results.xml" "test-main_working.js" "test-main.js" "test-main-timecard.js" "test-main-others.js" "test-main-jenkins.js" "test-main-auditing.js" "test-main-addons.js" "test-main-activity.js" "test-karma-config-jenkins.js" "test/" "store-walk/" "sonar-project.properties" "setup-main/" "setup-apps/" "server.js" "select-widget.html" "search/" "scripts/" "scheduling-print/" "scheduling-components/" "scheduling-addons/" "schedule-actions/" "schedule/" "sandbox-memory-profiling/" "request-types/" "request-manager/" "readme.md" "postcss.config.js" "PhantomJS_2.1.1_(Windows_8_0.0.0)/" "peopleeditor-sections/" "peopleeditor/" "package.json" "package-lock.json" "node_modules/" "load-angular.js" "less/" "krn-configurator.js" "kitchensink/" "karma.conf.js" "internals/" "infrastructure/" "images/" "html5.gradle" "gradle.properties" "geniesAction/" "genies-actions/" "genies/" "gameleaderboard/" "GAApproachOvertime/" "fonts/" "emptimecard/" "employee-calendar/" "documents/" "dist/" "demoApp/" "css/" "coverage-reports/" "container/" "common.karma.conf.js" "common/" "Chrome_64.0.3282_(Windows_10_0.0.0)/" "build.xml" "build-karma.xml" "build/" "babel-polyfill.js" "auditing/" "angular-infra/" "alerts-and-notifications/" "addontotals/" "addonhistoricalcorrections/" "addonaveraging/" "addonaudits/" "addonactivities/" "addonaccruals/" "activityproject/" "activityportalTest/" "activityportal/" "activityform/" "activity-components/" "activity-actions/" ".stylelintrc" ".npmrc" ".jshintrc-documented" ".jshintrc" ".gitignore" ".eslintrc" ".esdoc.json" ".editorconfig" ".csscomb.json" ".cache/" ".browserslistrc" ".babelrc" "../" "./")
+
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/infrastructure/" (23151 36353 0 0) "templates/" "properties/" "js/" "img/" "css/" "../" "./")
+
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/request-types/components/" (23253 63738 0 0) "status-history/" "status-dropdown/" "multiple-requests-grid/" "employee-dropdown/" "comments-notes/" "../" "./")
+
+ ("c:/yong/tools/emacs/.emacs.d/" (23217 10397 0 0) "init.el" "backup/" "../" "./")
+
+ ("C:/yong/GIT/MyEmacs/" (23227 38923 0 0) "yong/" "url/" "snippets/" "smex-items" "server/" "recentf~" "recentf" "README.md" "pyim/" "plantuml.jar" "org-clock-save.el" "lisp/" "init.el" "image-dired/" "ido.last" "eshell/" "ensime/" "elpa/" "Documents/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".org-timestamps/" ".mc-lists.el" ".history" ".gitignore" ".git/" ".emacs.d/" "../" "./")
+
+ ("c:/CodeSource/eou/staging_files/web_server/applications/navigator/html5/employee-calendar/src/containers/calendar-manager/events/" (23219 45820 0 0) "time-off-request/" "shift/" "request-event.spec.js" "request-event.js" "pay-code/" "outside-period.spec.js" "outside-period.js" "open-shift-request/" "open-shift/" "grid-event.spec.js" "grid-event.js" "events.module.js" "events.less" "events.constants.js" "events-factory.js" "base-event.spec.js" "base-event.js" "../" "./")
+
+ ("c:/CodeSource/eou/" (23217 2187 0 0) "vim.exe.stackdump" "tools/" "test/" "staging_files/" "stage.xml" "source/" "settings.gradle" "servicepack.gradle" "README.md" "publishFlex.gradle" "languagepack/" "kitStage.gradle" "kit.gradle" "gradlew.bat" "gradlew" "gradle.properties" "gradle/" "eou_security_framework.jardesc" "eou_quick.iws" "eou_quick.ipr" "eou_quick.iml" "eousparsestaging.xml" "DIST/" "dataSources/" "components/" "buildSrc/" "buildMinifyJs.xml" "buildf/" "build.xml" "build.properties" "build.gradle" "build/" "branded/" "bootstrap.xml" ".project" ".ideaDataSources/" ".gradle/" ".gitignore" ".gitattributes" ".git/" ".classpath" "../" "./")
+
+ ("c:/CodeSource/" (23210 31750 0 0) "wtktest/" "wfc_install/" "suite/" "eou/" "../" "./")
+
+ ("c:/yong/tools/emacs/.emacs.d/New One/" (23009 19418 0 0) "var/" "snippets/" "site-lisp/" "recentf" "README.org" "org-clock-save.el" "misc/" "localelpa/" "lisp/" "init.el.temp" "init.el" "ido.last" "history" "elpa/" "custom-set-variables.el" "company-statistics-cache.el" "bookmarks" "auto-save-list/" ".gitignore" "../" "./")
+
+ ("c:/yong/My Notes/Git-Notes/" (23004 62693 0 0) "temp-file.html" "styles/" "sitemap.html" "Scala.html" "Quotes.html" "MyUbuntu.html" "Misc.html" "Misc/" "Javascript.html" "Java/" "index.html" "Img/" "Guice.html" "Git.html" "French/" "English/" "Emacs/" "Chinese/" "Angular.html" "agenda/" "AccuRev.html" ".gitignore" ".git/" "../" "./")
+
+ ("c:/yong/My Notes/" (23004 63544 0 0) "temp/" "knotes/" "Git-Notes/" "agenda/" ".gitignore" "../" "./")
+
+ ("c:/yong/My Notes/agenda/" (22237 44497 0 0) "sitemap.html" "agenda/" "../" "./")
+
+ ("c:/yong/My Notes/agenda/agenda/" (22237 44497 0 0) "work.html" "learn.html" "home.html" "../" "./")
+
+ ("c:/Users/yong.chen/Desktop/New folder/" (22950 57205 0 0) "test/" "scheduling-widget-workload-firebirds-SNAPSHOT.jar" "scheduling-widget-workload-firebirds-SNAPSHOT/" "../" "./")
+
+ ("c:/yong/GoProject/src/hello/" (22870 39992 0 0) "Hello.go" "../" "./")
+
+ ("c:/yong/tools/emacs/" (22849 20075 0 0) "org.ics" "News/" "New Text Document.txt" "message-20150722-154812" "graphviz-2.38/" "en.pws" "en.prepl" "emacs.docx" "emacs-24.3-bin-i386.zip" "emacs/" "backup/" ".viminfo" ".smex-items" ".recentf" ".org-timestamps/" ".lesshst" ".ido.last~" ".ido.last" ".history" ".gitignore" ".gitconfig" ".emacs.keyfreq" ".emacs.d/" ".emacs-bmk-bmenu-state.el" ".config/" ".bash_history" ".backups/" "../" "./")
+
+ ("c:/yong/tools/emacs/emacs/" (22832 19239 0 0) "var/" "share/" "new-emacs-25.2/" "libexec/" "lib/" "include/" "etc/" "emacs-24.5.1/" "bin/" "../" "./")
+
+ ("c:/yong/tools/emacs/emacs/bin/" (22832 19259 0 0) "zlib1.dll" "xzmore" "xzless" "xzgrep" "xzfgrep" "xzegrep" "xzdiff" "xzdec.exe" "xzcmp" "xzcat.exe" "xz.exe" "xmlwf.exe" "xmllint.exe" "xmlcatalog.exe" "xml2-config" "xgettext.exe" "x86_64-w64-mingw32-agrep.exe" "wrjpgcom.exe" "unxz.exe" "trust.exe" "tmrdemo.exe" "tjbench.exe" "tiffsplit.exe" "tiffset.exe" "tiffmedian.exe" "tiffinfo.exe" "tiffdump.exe" "tiffdither.exe" "tiffcrop.exe" "tiffcp.exe" "tiffcmp.exe" "tiff2rgba.exe" "tiff2ps.exe" "tiff2pdf.exe" "tiff2bw.exe" "thumbnail.exe" "srptool.exe" "sexp-conv.exe" "runemacs.exe" "rsvg-view-3.exe" "rsvg-convert.exe" "rgb2ycbcr.exe" "recode-sr-latin.exe" "rdjpgcom.exe" "raw2tiff.exe" "ras2tiff.exe" "psktool.exe" "ppm2tiff.exe" "pngfix.exe" "png-fix-itxt.exe" "pkcs1-conv.exe" "pango-view.exe" "pal2rgb.exe" "p11tool.exe" "p11-kit.exe" "ocsptool.exe" "ngettext.exe" "nettle-pbkdf2.exe" "nettle-lfib-stream.exe" "nettle-hash.exe" "msguniq.exe" "msgunfmt.exe" "msgmerge.exe" "msginit.exe" "msggrep.exe" "msgfmt.exe" "msgfilter.exe" "msgexec.exe" "msgen.exe" "msgconv.exe" "msgcomm.exe" "msgcmp.exe" "msgcat.exe" "msgattrib.exe" "minizip.exe" "miniunzip.exe" "lzmainfo.exe" "lzmadec.exe" "libXpm-noX4.dll" "libxml2-2.dll" "libwinpthread-1.dll" "libvtv_stubs-0.dll" "libvtv-0.dll" "libturbojpeg-0.dll" "libtre-5.dll" "libtiffxx-5.dll" "libtiff-5.dll" "libtasn1-6.dll" "libsystre-0.dll" "libstdc++-6.dll" "libssp-0.dll" "librsvg-2-2.dll" "libquadmath-0.dll" "libpng16-config" "libpng16-16.dll" "libpng-config" "libpixman-1-0.dll" "libpangowin32-1.0-0.dll" "libpangoft2-1.0-0.dll" "libpangocairo-1.0-0.dll" "libpango-1.0-0.dll" "libp11-kit-0.dll" "libnettle-6-1.dll" "libminizip-1.dll" "liblzo2-2.dll" "liblzma-5.dll" "libjpeg-8.dll" "libjasper-1.dll" "libintl-8.dll" "libidn-11.dll" "libidn-11.def" "libiconv-2.dll" "libhogweed-4-1.dll" "libharfbuzz-icu-0.dll" "libharfbuzz-gobject-0.dll" "libharfbuzz-0.dll" "libgthread-2.0-0.dll" "libgomp-plugin-host_nonshm-1.dll" "libgomp-1.dll" "libgobject-2.0-0.dll" "libgnutlsxx-28.dll" "libgnutls-30.dll" "libgmpxx-4.dll" "libgmp-10.dll" "libgmodule-2.0-0.dll" "libglib-2.0-0.dll" "libgio-2.0-0.dll" "libgif-7.dll" "libgettextsrc-0-19-6.dll" "libgettextpo-0.dll" "libgettextlib-0-19-6.dll" "libgdk_pixbuf-2.0-0.dll" "libgcc_s_seh-1.dll" "libfreetype-6.dll" "libfontconfig-1.dll" "libffi-6.dll" "libexpat-1.dll" "libcroco-0.6-3.dll" "libcharset-1.dll" "libcairo-script-interpreter-2.dll" "libcairo-gobject-2.dll" "libcairo-2.dll" "libbz2-1.dll" "libatomic-1.dll" "libasprintf-0.dll" "jpegtran.exe" "jasper.exe" "imginfo.exe" "imgcmp.exe" "idn.exe" "hb-view.exe" "hb-shape.exe" "hb-ot-shape-closure.exe" "gspawn-win64-helper.exe" "gspawn-win64-helper-console.exe" "gsettings.exe" "gresource.exe" "gobject-query.exe" "gnutls-serv.exe" "gnutls-cli.exe" "gnutls-cli-debug.exe" "glib-mkenums" "glib-gettextize" "glib-genmarshal.exe" "glib-compile-schemas.exe" "glib-compile-resources.exe" "gio-querymodules.exe" "gif2tiff.exe" "gettextize" "gettext.sh" "gettext.exe" "gdk-pixbuf-query-loaders.exe" "gdk-pixbuf-pixdata.exe" "gdk-pixbuf-csource.exe" "gdbus.exe" "gdbus-codegen" "freetype-config" "fc-validate.exe" "fc-scan.exe" "fc-query.exe" "fc-pattern.exe" "fc-match.exe" "fc-list.exe" "fc-cat.exe" "fc-cache.exe" "fax2tiff.exe" "fax2ps.exe" "etags.exe" "envsubst.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.2.exe" "ebrowse.exe" "djpeg.exe" "cxpm-noX.exe" "ctags.exe" "csslint-0.6.exe" "croco-0.6-config" "cjpeg.exe" "certtool.exe" "bzmore" "bzless" "bzip2recover.exe" "bzip2.exe" "bzgrep" "bzfgrep" "bzegrep" "bzdiff" "bzcmp" "bzcat.exe" "bunzip2.exe" "bmp2tiff.exe" "autopoint" "asn1Parser.exe" "asn1Decoding.exe" "asn1Coding.exe" "addpm.exe" "../" "./")
+
+ ("c:/Users/yong.chen/Desktop/New folder/GenerateWorkload/" (22837 22381 0 0) "[payload]StaffingMatrix.json" "[Payload] -generateWorkload.json" "visibikity.json" "staffingMatrix.json" "GenerateWorkload UI Documentation.docx" "GenerateWorkload UI Documentation-old.docx" "../" "./")
+
+ ("c:/Users/yong.chen/Desktop/New folder/saveWorkLoadPlannerPayLoad.json/" (22828 26722 0 0) "../" "./")
+
+ ("c:/Kronos/wfc/applications/navigator/html5/angular-infra/" (22821 39535 0 0) "tests/" "test-main-angular-infra.js" "properties/" "partials/" "loaderHelper.js" "js/" "global.js" "global-debug.js" "build.xml" "angular-infra.karma.conf.js" ".#loaderHelper.js" "../" "./")
+
+ ("c:/Kronos/" (22803 31382 0 0) "_jvm/" "zerodown/" "Xpress-Optimizer/" "wfc/" "uninstall/" "StartUpMutex8.0.14_kdt-ca-ychen3_Astra80_done" "semaphoreLockFile.vls" "reporting/" "OracleODAC/" "openfire/" "jmx-client/" "jdk/" "jboss_connectors/" "jboss/" "install.log" "install.dict" "install.000" "help/" "flexlm/" "FileLocks/" "deployments/" "dbmanager/" "data/" "configuration/" "backup/" "apache/" "ant/" "../" "./")
+
+ ("c:/Kronos/wfc/" (22803 31129 0 0) "reports/" "reporting/" "properties/" "plugins/" "logs/" "lm/" "licensing/" "bin/" "applications/" "../" "./")
+
+ ("c:/Kronos/wfc/applications/" (22803 31207 0 0) "zerodown/" "wuilegacy/" "wuihtml/" "wui/" "wtzr/" "wtrbs/" "wtk/" "wtd/" "wtbgp/" "wsawageprofiles/" "wsareports/" "wsapayrules/" "wsalaborlevels/" "wsadisplaypreferences/" "wsacommon/" "wsacomments/" "wsaaccruals/" "wsaaccessprofiles/" "wrm/" "wpk/" "wmc/" "wma/" "wlg/" "wivr/" "wfso/" "wfs/" "wfp/" "wfop/" "wfan/" "wdbi/" "wcb/" "wba/" "wacc/" "v3tools/" "udm/" "toke/" "tid/" "ta/" "suitenav/" "struts/" "rat/" "nchs/" "navigator/" "mss/" "m8m/" "integration/" "inf/" "indiareports/" "game/" "fpa/" "feature/" "ems/" "employment/" "ea/" "dbmanager/" "cascade/" "calendar/" "brc/" "batch/" "abk/" "../" "./")
+
+ ("c:/Kronos/wfc/applications/navigator/" (22803 31207 0 0) "translationsupport/" "textLayout_2.0.0.232.swz" "textLayout_2.0.0.232.swf" "strophe.min.js" "strophe.js" "spark_dmv_4.5.0.20967.swz" "spark_dmv_4.5.0.20967.swf" "spark_4.5.0.20967.swz" "spark_4.5.0.20967.swf" "sparkskins_4.5.0.20967.swz" "sparkskins_4.5.0.20967.swf" "rpc_4.5.0.20967.swz" "rpc_4.5.0.20967.swf" "properties/" "playerProductInstall.swf" "osmf_1.0.0.16316.swz" "osmf_1.0.0.16316.swf" "Navigator.swf" "mx_4.5.0.20967.swz" "mx_4.5.0.20967.swf" "locale/" "libraries/" "kronos_navigator.min.js" "kronos_navigator.js" "html5-built/" "html5/" "html/" "framework_4.5.0.20967.swz" "framework_4.5.0.20967.swf" "com.kronos.wfc.weather/" "com.kronos.wfc.timeoffrequest/" "com.kronos.wfc.singlelink/" "com.kronos.wfc.rulesviolations/" "com.kronos.wfc.quicklinks/" "com.kronos.wfc.productivity/" "com.kronos.wfc.pageflow/" "com.kronos.wfc.hyperfind/" "com.kronos.wfc.flex.viewlocationschedule/" "com.kronos.wfc.flex.viewcoveragecount/" "com.kronos.wfc.flex.totalsaddon/" "com.kronos.wfc.flex.timestamp/" "com.kronos.wfc.flex.tasklist/" "com.kronos.wfc.flex.staffing/" "com.kronos.wfc.flex.schedule/" "com.kronos.wfc.flex.requestdetails/" "com.kronos.wfc.flex.projectplanning/" "com.kronos.wfc.flex.projectmonitoring/" "com.kronos.wfc.flex.projectexecution/" "com.kronos.wfc.flex.htmlcombined/" "com.kronos.wfc.flex.html/" "com.kronos.wfc.flex.geniescompositor/" "com.kronos.wfc.flex.generictimeeditor/" "com.kronos.wfc.flex.calendar/" "com.kronos.wfc.flex.accrualsemployee/" "com.kronos.wfc.fillopenshift/" "com.kronos.wfc.exceptions/" "com.kronos.wfc.coverage/" "com.kronos.wfc.ContextSetter/" "com.kronos.wfc.ConfigurationManager/" "charts_4.5.0.20967.swz" "charts_4.5.0.20967.swf" "assets/" "advancedgrids_4.5.0.20967.swz" "advancedgrids_4.5.0.20967.swf" "AC_OETags.min.js" "AC_OETags.js" ".acignore" "../" "./")
+
+ ("c:/Kronos/wfc/applications/navigator/html5/" (22803 31207 0 0) "workloadplanner-actions/" "workloadplanner/" "widget-wrapper.js" "tools/" "timecard-actions/" "timecard/" "thirdparty/" "tests-karma-config.js" "tests-karma-config-timecard.js" "tests-karma-config-scheduling.js" "tests-karma-config-people_editor.js" "tests-karma-config-others.js" "tests-karma-config-genies.js" "tests-karma-config-auditing.js" "tests-karma-config-angular-infra.js" "tests-karma-config-alerts.js" "tests-karma-config-addons.js" "tests-karma-config-activity.js" "testHelpers.js" "test-results.xml" "test-main_working.js" "test-main.js" "test-main-timecard.js" "test-main-scheduling.js" "test-main-people_editor.js" "test-main-others.js" "test-main-jenkins.js" "test-main-auditing.js" "test-main-angular-infra.js" "test-main-alerts.js" "test-main-addons.js" "test-main-activity.js" "test-karma-config-jenkins.js" "sonar-project.properties" "socialportal/" "socialendpoint/" "setup-main/" "setup-apps-workflow-notifications/" "setup-apps-work-week-divide/" "setup-apps-table-import/" "setup-apps-shift-templates/" "setup-apps-schedule-periods/" "setup-apps-rounding-rule/" "setup-apps-role-editor/" "setup-apps-report-setup/" "setup-apps-query-manager/" "setup-apps-process-profiles/" "setup-apps-pattern-templates/" "setup-apps-organizational-sets/" "setup-apps-location-assignment/" "setup-apps-labor-level/" "setup-apps-knownplace-profiles/" "setup-apps-jobs-and-orgmap/" "setup-apps-hyperfind/" "setup-apps-feature-switch/" "setup-apps-factored-time/" "setup-apps-event-manager/" "setup-apps-combined-accrual-group/" "setup-apps-combined-accrual-code/" "setup-apps-availability-templates/" "setup-apps-auto-xfer-map/" "setup-apps-access-method-profiles/" "setup-apps/" "server.js" "select-widget.html" "search/" "scripts/" "scheduling-print/" "scheduling-components/" "scheduling-addons/" "schedule-actions/" "schedule/" "sandbox-memory-profiling/" "PhantomJS_2.1.1_(Windows_7_0.0.0)/" "peopleeditor-sections/" "peopleeditor/" "package.json" "minify.js" "less/" "karma.conf.js" "karma-junit-reporter-kronos-custom/" "junit-reports/" "internals/" "infrastructure/" "images/" "htmladdon/" "html5.gradle" "html/" "guidedaction/" "gradle.properties" "geniesAction/" "genies-actions/" "genies/" "gameleaderboard/" "GAApproachOvertime/" "fonts/" "emptimecard/" "dumb-copy.js" "documents/" "css/" "coverage/" "common.karma.conf.js" "common/" "buildMinifyJs.xml" "build.xml" "build.js" "build-karma.xml" "build/" "auditing/" "astraui/" "angular-infra/" "AlertsAndNotifications/" "AlertPreference/" "addontotals/" "addonhistoricalcorrections/" "addonaveraging/" "addonaudits/" "addonactivities/" "addonaccruals/" "activityproject/" "activityportalTest/" "activityportal/" "activityform/" "activity-components/" "activity-actions/" "Actions/" ".npmrc" ".jshintrc-documented" ".jshintrc" ".acignore" "../" "./")
+
+ ("c:/dev/" (22663 44574 0 0) "Test/" "TempDir/" "portable Tools/" "NGUI/" "lib/" "less.js-windows-v2.1.1/" "IntelliJ/" "IDE/" "How To restart osgi bundles without restarting wfc.docx" "Gradle/" "Eclipse theme/" "Docker/" "DB/" "cmd/" "build/" "apache-ant-1.9.2/" "AngularJS Training/" "../" "./")
+
+ ("c:/yong/GIT/my-note/Emacs/" (22783 40434 0 0) "emacs_navigation.org" "Emacs.org" "Emacs.Navigation.org" "emacs.d.org" "../" "./")
+
+ ("c:/yong/GIT/my-note/" (22783 40110 0 0) "Yong.java" "Yong.class" "temp-file.org" "styles/" "sitemap.org" "Scala.org" "Quotes.org" "MyUbuntu.org" "Misc.org" "Misc/" "Javascript.org" "Java/" "index.org" "Img/" "Guice.org" "Git.org" "French/" "FlatMapExample.java" "FlatMapExample.class" "English/" "Emacs/" "Chinese/" "Angular.org" "agenda/" "AccuRev.org" ".gitignore" ".git/" "../" "./")
+
+ ("c:/yong/tools/" (22778 25173 0 0) "Wireshark-win64-1.10.3.exe" "windirstat1_1_2_setup.exe" "wget-1.18-win64.zip" "wget-1.18-win64/" "VNC-Viewer-5.0.3-Windows-64bit.exe" "VMware-player-7.1.2-2780323.exe" "VirtuaWin_portable_4.4.zip" "VirtuaWin_portable_4.4/" "SystemExplorerPortable_420.zip" "SystemExplorerPortable_420/" "ScreenshotCaptorPortable(1).zip" "ScreenshotCaptorPortable/" "plantuml.jar" "flashget/" "Everything-1.2.1.371.zip" "Everything-1.2.1.371/" "emacs-24.5-bin-i686-mingw32.zip" "emacs-24.4-bin-i686-pc-mingw32.zip" "emacs/" "DittoPortable_64bit_3_18_46_0.zip" "DittoPortable_64bit_3_18_46_0/" "DBTOOLS.jar" "ConEmuPack.161002/" "charles-proxy-win64-3.8.3.msi" "backup emacs/" "../" "./")
+
+ ("c:/yong/GIT/MyEmacs/.emacs.d/" (22782 12627 0 0) "auto-save-list/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,95 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("Kronos_request_manager.org"
+ (filename . "c:/yong/GIT/Knotes/Kronos_request_manager.org")
+ (front-context-string . "\n\n  [[https://en")
+ (rear-context-string . "otes\n\n** webpack")
+ (position . 514))
+("Kronos_Staffing_project.org"
+ (filename . "c:/yong/GIT/Knotes/Kronos_Staffing_project.org")
+ (front-context-string)
+ (rear-context-string . "affing widget]]\n")
+ (position . 6306))
+("CA-BJYSM02.properties"
+ (filename . "c:/CodeSource/wtktest/test/Misc/wfc_install/CA-BJYSM02.properties")
+ (front-context-string . "\n# set the defau")
+ (rear-context-string)
+ (position . 1))
+("work.org"
+ (filename . "c:/yong/GIT/git-notes/agenda/work.org")
+ (front-context-string . "\n* 2013 :ARCHIVE")
+ (rear-context-string . " OrgMap change]]")
+ (position . 745))
+("Kronos_Dev-Notes.org"
+ (filename . "c:/yong/GIT/Knotes/Kronos_Dev-Notes.org")
+ (front-context-string)
+ (rear-context-string . "][Team server]]\n")
+ (position . 1886))
+("defects"
+ (filename . "c:/yong/GIT/git-notes/agenda/defects.org")
+ (front-context-string)
+ (rear-context-string . "e]]  :defect: %\n")
+ (position . 4055))
+("KDT-CA-YCHEN3.properties"
+ (filename . "c:/CodeSource/Git/wtktest/test/Misc/wfc_install/KDT-CA-YCHEN3.properties")
+ (front-context-string . "\n\n\n# mark which ")
+ (rear-context-string . "install.sp=false")
+ (position . 2121))
+("org-capture-last-stored-marker"
+ (filename . "c:/yong/GIT/git-notes/agenda/defects.org")
+ (front-context-string . "** Topic: WFC-57")
+ (rear-context-string . "age  :defect: %\n")
+ (position . 4188))
+("org-refile-last-stored"
+ (filename . "c:/yong/GIT/git-notes/agenda/defects.org")
+ (front-context-string . "** Topic: WFC-57")
+ (rear-context-string . "age  :defect: %\n")
+ (position . 4188))
+("org-capture-last-stored"
+ (filename . "c:/yong/GIT/git-notes/agenda/defects.org")
+ (front-context-string . "**** Topic: WFC-")
+ (rear-context-string . "e]]  :defect: %\n")
+ (position . 4055))
+("jumbo config"
+ (filename . "c:/dev/cmd/Jumbos/AntEclipseScripts.properties")
+ (front-context-string)
+ (rear-context-string . "MicroTest.class\n")
+ (position . 3313))
+("yong command"
+ (filename . "c:/dev/cmd/yong.bat")
+ (front-context-string . "\ncd C:\\CodeSourc")
+ (rear-context-string . "\ngoto :skip\n:eou")
+ (position . 193))
+("install"
+ (filename . "c:/CodeSource/Git/wtktest/test/Misc/wfc_install/")
+ (front-context-string . "\n\n# if start.wfc")
+ (rear-context-string . "art.service=true")
+ (position . 1176))
+("jsp"
+ (filename . "c:/Kronos/jboss/wfc/configuration/standalone.xml")
+ (front-context-string . "\" x-powered-by=\"")
+ (rear-context-string . "evelopment=\"true")
+ (position . 17868))
+("loaderHelper.js"
+ (filename . "c:/Kronos/wfc/applications/navigator/html5/angular-infra/loaderHelper.js")
+ (front-context-string . "\n        return;")
+ (rear-context-string . "onMode === true)")
+ (position . 26596))
+("web.xml for OSGI"
+ (filename . "c:/Kronos/jboss/wfc/deployments/wfc.ear/wfc.war/WEB-INF/web.xml")
+ (front-context-string . "</param-value>\n ")
+ (rear-context-string . "param-value>true")
+ (position . 28123))
+("debug"
+ (filename . "c:/Kronos/jboss/bin/standalone.conf.bat")
+ (front-context-string . "set \"JAVA_OPTS=%")
+ (rear-context-string . "ocket debugging\n")
+ (position . 2618))
+("org-capture-last-stored-marker<2>"
+ (filename . "c:/yong/GIT/git-notes/agenda/defects.org")
+ (front-context-string . "** Topic: WFC-57")
+ (rear-context-string . "age  :defect: %\n")
+ (position . 4188))
+)

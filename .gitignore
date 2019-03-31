@@ -1,0 +1,18 @@
+*.o
+*.dat
+*.elc
+*~
+elpa/
+auto-save-list/
+eshell/
+yong/
+
+# ignore auto-generated file
+srecode-map.el
+.mc-lists.el
+session.*
+\#*
+
+*.cache
+.org-timestamps/Git-note.cache
+.emacs.d
