@@ -54,7 +54,7 @@
 (require-package 'scratch)
 (require-package 'command-log-mode)
 
-;;(require 'init-pyim)
+(require 'init-pyim)
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
