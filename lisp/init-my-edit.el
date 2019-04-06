@@ -21,6 +21,12 @@
 (global-set-key (kbd "M-g w") 'avy-goto-word-1)
 
 
+
+
+
+
+
+
 ;; Local Variables:
 ;; coding: utf-8
 ;; no-byte-compile: t
@@ -102,13 +108,7 @@
 ;;
 ;;
 ;;
-;;;;http://emacsredux.com/blog/2013/05/18/instant-access-to-init-dot-el/
-;;(defun find-user-init-file ()
-;;  "Edit the `user-init-file', in another window."
-;;  (interactive)
-;;(find-file-other-window "~/.emacs.d/init.el"))
-;;
-;;(global-set-key (kbd "C-c I") 'find-user-init-file)
+
 ;;
 ;;;;http://emacsredux.com/blog/2013/03/27/copy-filename-to-the-clipboard/
 ;;(defun copy-file-name-to-clipboard ()
