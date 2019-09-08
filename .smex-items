@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ replace-string
+ new-frame
+ magit-status
+ speedbar
+ package-list-packages
  byte-compile-file
  toggle-input-method
- package-autoremove
- package-list-packages
- speedbar
- calc
- 5x5
 )
 
 ;; ----- smex-data -----
@@ -17,8 +17,11 @@
  (5x5 . 1)
  (calc . 1)
  (byte-compile-file . 6)
- (package-list-packages . 2)
+ (package-list-packages . 4)
  (toggle-input-method . 3)
- (speedbar . 1)
+ (speedbar . 2)
  (package-autoremove . 1)
+ (magit-status . 2)
+ (new-frame . 1)
+ (replace-string . 2)
 )

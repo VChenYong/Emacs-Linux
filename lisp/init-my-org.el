@@ -120,99 +120,120 @@ Added: %U")
 
 
 (setq org-publish-project-alist
-    '(
-      ("Git-note"
-       :base-directory "~/Yong/git-notes"
-       :publishing-directory "~/Yong/My Notes/Git-Notes"
-       :auto-index t
-       :index-title "index"
-       :base-extension "org"
-       :recursive t
-       :publishing-function org-html-publish-to-html
-       :headline-levels 5
-       :section-numbers nil
-       :auto-preamble t
-       :auto-sitemap t                ; Generate sitemap.org automagically...
-       :sitemap-filename "sitemap.org"  ; ... call it sitemap.org (it's the default)...
-       :sitemap-title "Yong"
-       :html-head    "<link rel=\"stylesheet\" type=\"text/css\" href=\"./styles/style.css\"/>"
-     )
+      '(
+        ("Git-note"
+         :base-directory "~/Yong/git-notes"
+         :publishing-directory "~/Yong/My Notes/Git-Notes"
+         :auto-index t
+         :index-title "index"
+         :base-extension "org"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :headline-levels 5
+         :section-numbers nil
+         :auto-preamble t
+         :auto-sitemap t                ; Generate sitemap.org automagically...
+         :sitemap-filename "sitemap.org"  ; ... call it sitemap.org (it's the default)...
+         :sitemap-title "Yong"
+         :html-head    "<link rel=\"stylesheet\" type=\"text/css\" href=\"./styles/style.css\"/>"
+         )
 
 
 
-      ("note-static"
-       :base-directory "~/Yong/git-notes"
-       :publishing-directory "~/Yong/My Notes/Git-Notes"
-       :recursive t
-       :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el\\|pptx\\|doc"
-       :publishing-function org-publish-attachment)
+        ("note-static"
+         :base-directory "~/Yong/git-notes"
+         :publishing-directory "~/Yong/My Notes/Git-Notes"
+         :recursive t
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el\\|pptx\\|doc"
+         :publishing-function org-publish-attachment)
 
 
-;;        ("kronos-note"
-;;       :base-directory "C:/yong/GIT/Knotes"
-;;       :publishing-directory "C:/YONG/My Notes/knotes"
-;;       :auto-index t
-;;       :index-filename "Kronos_index.org"
-;;       :index-title "index"
-;;       :base-extension "org"
-;;       :recursive t
-;;       :publishing-function org-html-publish-to-html
-;;       :html-link-home "file:///C:/YONG/My Notes/knotes/Kronos_index.html"
-;;       :html-link-up "file:///C:/yong/My Notes/Git-Notes/index.html"
-;;
-;;       :headline-levels 5
-;;       :section-numbers nil
-;;       :auto-preamble t
-;;       :auto-sitemap t                ; Generate sitemap.org automagically...
-;;       :sitemap-filename "index.org"  ; ... call it sitemap.org (it's the default)...
-;;       :sitemap-title "Yong"
-;;       :html-preamble "Yong's Notes"
-;;         :html-head  "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://thomasf.github.com/solarized-css/solarized-dark.min.css\"/>"
-;;
-;;
-;;         )
-;;
-;;      ("note-static"
-;;       :base-directory "C:/YONG/GIT/Notes/My Notes"
-;;       :publishing-directory "C:/YONG/My Notes"
-;;       :recursive t
-;;       :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el"
-;;       :publishing-function org-publish-attachment)
+        ;;        ("kronos-note"
+        ;;       :base-directory "C:/yong/GIT/Knotes"
+        ;;       :publishing-directory "C:/YONG/My Notes/knotes"
+        ;;       :auto-index t
+        ;;       :index-filename "Kronos_index.org"
+        ;;       :index-title "index"
+        ;;       :base-extension "org"
+        ;;       :recursive t
+        ;;       :publishing-function org-html-publish-to-html
+        ;;       :html-link-home "file:///C:/YONG/My Notes/knotes/Kronos_index.html"
+        ;;       :html-link-up "file:///C:/yong/My Notes/Git-Notes/index.html"
+        ;;
+        ;;       :headline-levels 5
+        ;;       :section-numbers nil
+        ;;       :auto-preamble t
+        ;;       :auto-sitemap t                ; Generate sitemap.org automagically...
+        ;;       :sitemap-filename "index.org"  ; ... call it sitemap.org (it's the default)...
+        ;;       :sitemap-title "Yong"
+        ;;       :html-preamble "Yong's Notes"
+        ;;         :html-head  "<link rel=\"stylesheet\" type=\"text/css\" href=\"http://thomasf.github.com/solarized-css/solarized-dark.min.css\"/>"
+        ;;
+        ;;
+        ;;         )
+        ;;
+        ;;      ("note-static"
+        ;;       :base-directory "C:/YONG/GIT/Notes/My Notes"
+        ;;       :publishing-directory "C:/YONG/My Notes"
+        ;;       :recursive t
+        ;;       :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el"
+        ;;       :publishing-function org-publish-attachment)
 
 
-    ("my-agenda"
-       :base-directory "~/Yong/git-notes/agenda"
-       :publishing-directory "~/Yong/My Notes/Git-Notes/agenda"
-       :auto-index t
-       :index-filename "work.org"
-       :index-title "index"
-       :base-extension "org"
-       :recursive t
-       :publishing-function org-html-publish-to-html
-       :html-link-home "work.html"
-       :html-link-up "sitemap.html"
-       :headline-levels 5
-       :section-numbers nil
-       :auto-preamble t
-       :auto-sitemap t                ; Generate sitemap.org automagically...
-       :sitemap-filename "sitemap.org"  ; ... call it sitemap.org (it's the default)...
-       :sitemap-title "Yong"
-       :html-preamble "Yong's agenda"
+        ("my-agenda"
+         :base-directory "~/Yong/git-notes/agenda"
+         :publishing-directory "~/Yong/My Notes/Git-Notes/agenda"
+         :auto-index t
+         :index-filename "work.org"
+         :index-title "index"
+         :base-extension "org"
+         :recursive t
+         :publishing-function org-html-publish-to-html
+         :html-link-home "work.html"
+         :html-link-up "sitemap.html"
+         :headline-levels 5
+         :section-numbers nil
+         :auto-preamble t
+         :auto-sitemap t                ; Generate sitemap.org automagically...
+         :sitemap-filename "sitemap.org"  ; ... call it sitemap.org (it's the default)...
+         :sitemap-title "Yong"
+         :html-preamble "Yong's agenda"
          :html-head  "<link rel=\"stylesheet\" type=\"text/css\" href=\"C:/YONG/My Notes/css/solarized-light.css\"/>"
 
 
-       )
-      ("agenda-static"
-       :base-directory "~/Yong/git-notes/agenda"
-       :publishing-directory "~/Yong/My Notes/Git-Notes/agenda"
-       :recursive t
-       :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el"
-       :publishing-function org-publish-attachment)
+         )
+        ("agenda-static"
+         :base-directory "~/Yong/git-notes/agenda"
+         :publishing-directory "~/Yong/My Notes/Git-Notes/agenda"
+         :recursive t
+         :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|swf\\|zip\\|gz\\|txt\\|el"
+         :publishing-function org-publish-attachment)
 
-      ("note"
-       :components ("note-org" "note-static")
-       :author "vincent.yongchen@gmail.com"
-       )))
+        ("note"
+         :components ("note-org" "note-static")
+         :author "vincent.yongchen@gmail.com"
+         )))
+
+
+
+
+
+;; active Org-babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(;; other Babel languages
+   (plantuml . t)))
+
+(setq org-plantuml-jar-path
+      (expand-file-name "~/.emacs.d/plantuml.jar"))
+
+
+;; Disable every prompt during an org-mode export, when using plantuml.
+;; Useful when you have multiple UML diagrams in an org doc, and you don't
+;; want to type 'y' on every export prompt.
+(defun my-org-confirm-babel-evaluate (lang body)
+  (not (string= lang "plantuml")))
+(setq org-confirm-babel-evaluate 'my-org-confirm-babel-evaluate)
 
 
 
@@ -222,9 +243,9 @@ Added: %U")
 ;;http://cestlaz.github.io/posts/using-emacs-2-org/
 
 (use-package org-bullets
-   :ensure t
-   :config
-   (add-hook 'org-mode-hook (lambda() (org-bullets-mode 1))))
+  :ensure t
+  :config
+  (add-hook 'org-mode-hook (lambda() (org-bullets-mode 1))))
 
 
 

@@ -39,13 +39,13 @@
 ;;---------------------------------------------------------------------------------
 ;; Yasnippet tab key binding workaround
 ;;---------------------------------------------------------------------------------
-;(define-key yas-minor-mode-map (kbd "<tab>") nil)
-;(define-key yas-minor-mode-map (kbd "TAB") nil)
-;(define-key yas-minor-mode-map (kbd "<C-tab>") 'yas-expand)
+                                        ;(define-key yas-minor-mode-map (kbd "<tab>") nil)
+                                        ;(define-key yas-minor-mode-map (kbd "TAB") nil)
+                                        ;(define-key yas-minor-mode-map (kbd "<C-tab>") 'yas-expand)
 
 
-;(require 'iedit)
-;(global-set-key (kbd "C-;") 'iedit-mode)
+                                        ;(require 'iedit)
+                                        ;(global-set-key (kbd "C-;") 'iedit-mode)
 
 
 
@@ -54,17 +54,26 @@
 
 
 
-;;;; active Org-babel languages
-;;(org-babel-do-load-languages
-;; 'org-babel-load-languages
-;; '(;; other Babel languages
-;;   (plantuml . t)))
+;; active Org-babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(;; other Babel languages
+   (plantuml . t)))
+
+(setq org-plantuml-jar-path
+      (expand-file-name "~/.emacs.d/plantuml.jar"))
+
+
+;; Disable every prompt during an org-mode export, when using plantuml.
+;; Useful when you have multiple UML diagrams in an org doc, and you don't
+;; want to type 'y' on every export prompt.
+(defun my-org-confirm-babel-evaluate (lang body)
+  (not (string= lang "plantuml")))
+(setq org-confirm-babel-evaluate 'my-org-confirm-babel-evaluate)
+
+
 ;;
-;;(setq org-plantuml-jar-path
-;;      (expand-file-name "~/.emacs.d/plantuml.jar"))
-;;
-;;
-;
+                                        ;
 ;;
 ;;
 ;;

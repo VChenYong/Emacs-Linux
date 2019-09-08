@@ -2,107 +2,131 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Mar 31 15:45:43 2019
+;; Created Sun Sep  8 14:07:55 2019
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23713 6375 497643 335000) (desktop . "208") "yong@Yong" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "monospace-10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (mouse-color . "#31363b") (border-color . "#424242") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground . "#31363b") (scroll-bar-background . "#31363b") (menu-bar-lines . 0) (tool-bar-lines . 0) (height . 70) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (environment) (frameset--id . "C88C-4480-F4A6-A75A") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (width . 318) (left . 1920) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 60) (min-pixel-width . 80) (min-pixel-height-ignore . 45) (min-pixel-width-ignore . 56) (min-pixel-height-safe . 15) (min-pixel-width-safe . 16)) leaf (pixel-width . 2560) (pixel-height . 1035) (total-width . 320) (total-height . 69) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2460) (start . 1549))))])
+(setq desktop-saved-frameset [frameset 1 (23925 17275 92064 769000) (desktop . "208") "yong@Yong" nil nil ((((font-backend xft x) (font . "-unknown-DejaVu Sans Mono-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "monospace-10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#eaeaea") (background-color . "#000000") (mouse-color . "#31363b") (border-color . "#424242") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground . "#31363b") (scroll-bar-background . "#31363b") (menu-bar-lines . 0) (tool-bar-lines . 0) (height . 69) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen) (display-type . color) (background-mode . dark) (cursor-color . "#d54e53") (environment) (frameset--id . "765B-4634-AE21-2759") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (fullscreen-restore . maximized) (visibility . t) (width . 157) (left . 0) (top . 0)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 7) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 120) (min-pixel-width . 80) (min-pixel-height-ignore . 90) (min-pixel-width-ignore . 56) (min-pixel-height-safe . 30) (min-pixel-width-safe . 16)) vc (pixel-width . 1272) (pixel-height . 1020) (total-width . 159) (total-height . 68) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1272) (pixel-height . 510) (total-width . 159) (total-height . 34) (normal-height . 0.5) (normal-width . 1.0) (buffer "COMMIT_EDITMSG" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 39) (start . 1))) (leaf (last . t) (pixel-width . 1272) (pixel-height . 510) (total-width . 159) (total-height . 34) (normal-height . 0.5) (normal-width . 1.0) (buffer "init-my-edit.el" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1854) (start . 1432)))))])
 (setq comint-input-ring nil)
 (setq compile-history nil)
 (setq desktop-missing-file-warning nil)
 (setq dired-regexp-history nil)
-(setq extended-command-history nil)
+(setq extended-command-history '("replace-string" "select-frame" "new-frame" "magit-status" "speedbar" "magit-status" "package-list-packages" "speedbar" "run-haskell" "haskell-process-restart" "run-haskell" "haskell-interactive-mode" "speedbar" "package-list-packages" "speedbar" "set-input-method" "speedbar" "replace-string" "emacs-version" "set-input-method" "speedbar" "set-input-method" "eval-buffer" "speedbar" "leetcode" "eval-buffer" "leetcode-try" "java-mode" "leetcode" "leetcode-try"))
 (setq face-name-history nil)
-(setq file-name-history '("~/.emacs.d/org-clock-save.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/Yong/git-notes/AccuRev.org" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/custom.el" "~/.emacs.d/#!home!yong!.emacs.d!lisp!init-exec-path.el#" "~/.emacs.d/init.el" "~/.emacs.d/org-clock-save.el" "/home/yong/.emacs.d/init.el" "/home/yong/.emacs.d/#!home!yong!.emacs.d!lisp!init-exec-path.el#" "~/.emacs.d/lisp/init-editing-utils.el" "~/Yong/git-notes/AccuRev.org" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/Yong/git-notes/AccuRev.org" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/Yong/git-notes/AccuRev.org" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/init.el" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/.emacs.d/init.el" "~/Yong/git-notes/AccuRev.org" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/.emacs.d/init.el" "~/Yong/git-notes/AccuRev.org" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/org-clock-save.el" "/home/yong/Yong/git-notes/AccuRev.org" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-editing-utils.el" "~/.emacs.d/lisp/init-exec-path.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/elpa-25.1/pyim-20190310.1058/pyim-autoloads.el" "~/.emacs.d/elpa-25.1/pyim-basedict-20170727.259/pyim-basedict-autoloads.el" "~/.emacs.d/custom.el" "~/.emacs.d/init.el" "~/.emacs.d/custom.el" "~/.emacs.d/elpa-25.1/log4e-20170401.1304/log4e-autoloads.el" "~/.emacs.d/elpa-25.1/ibuffer-projectile-20181202.352/ibuffer-projectile-autoloads.el" "~/.emacs.d/init.el" "~/.emacs.d/org-clock-save.el" "~/Yong/git-notes/sitemap.org" "~/Yong/git-notes/Chinese/Chinese.org" "~/Yong/git-notes/Chinese/‘Ê²‘Ã´‘ÊÇ‘°Ø‘À­‘Í¼‘Ê½‘µÄ‘°®‘Çé.org" "~/Yong/git-notes/Chinese/‘²Ö‘Ñë‘¼Î‘´ë.org" "~/Yong/git-notes/Chinese/‘·ð‘¼Ò‘ËÄ‘´ó‘¾­‘µä‘°®‘Çé‘¹Ê‘ÊÂ.org" "~/Yong/git-notes/Chinese/‘¾ß‘±¸‘Õâ‘¾Å‘ÖÖ‘ÄÜ‘±Ø‘³É‘´ó‘ÊÂ.org" "~/Yong/git-notes/Chinese/‘Èç‘¹û‘Äã‘ÐÄ‘Çé‘²»‘ºÃ‘µÄ‘Ê±‘ºò‘¿É‘ÒÔ‘À´‘¿´‘¿´‘Õâ‘Æª‘ÎÄ‘ÕÂ.org" "~/Yong/git-notes/Emacs/Emacs.org" "~/Yong/git-notes/Emacs/Emacs.Navigation.org" "~/Yong/git-notes/Emacs/emacs.d.org" "~/Yong/git-notes/Emacs/emacs_navigation.org" "~/Yong/git-notes/English/‘Ó¢‘ÎÄ‘ÒÑ‘Èç‘´Ë‘¸ã‘Ð¦.org" "~/Yong/git-notes/English/‘Ó¢‘Óï‘Ð´‘×÷‘×îTOP80‘¸ö‘Ê¹‘ÓÃ‘¸ß‘Æµ‘´Ê‘´î‘Åä.org" "~/Yong/git-notes/English/‘Ó¢‘Óï‘´Ê‘»ã.org" "~/Yong/git-notes/French/French.org" "~/Yong/git-notes/Java/Design-pattern.org" "~/Yong/git-notes/Java/Java-collection.org" "~/Yong/git-notes/Java/Java-IDE.org" "~/Yong/git-notes/Java/Java-Lambdas.org" "~/Yong/git-notes/Java/Java.org" "~/Yong/git-notes/Java/Java-8.org" "~/Yong/git-notes/Java/My-Java.org" "~/Yong/git-notes/Java/UML-Example.org" "~/Yong/git-notes/Misc/Linux.org" "~/Yong/git-notes/agenda/defects.org" "~/Yong/git-notes/agenda/home.org" "~/Yong/git-notes/agenda/journal.org"))
+(setq file-name-history '("~/.emacs.d/org-clock-save.el" "~/Yong/My Notes/Git-Notes/.git/COMMIT_EDITMSG" "~/.emacs.d/custom.el" "/usr/share/emacs/25.1/etc/HELLO" "~/Yong/git-notes/test.hs" "~/Downloads/scanf_s.c" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-my-edit.el" "~/Yong/git-notes/Java/Design-pattern.org" "~/.emacs.d/org-clock-save.el" "~/Yong/git-notes/sitemap.org" "~/Yong/git-notes/Chinese/Chinese.org" "~/Yong/git-notes/Chinese/‘Ê²‘Ã´‘ÊÇ‘°Ø‘À­‘Í¼‘Ê½‘µÄ‘°®‘Çé.org" "~/Yong/git-notes/Chinese/‘²Ö‘Ñë‘¼Î‘´ë.org" "~/Yong/git-notes/Chinese/‘·ð‘¼Ò‘ËÄ‘´ó‘¾­‘µä‘°®‘Çé‘¹Ê‘ÊÂ.org" "~/Yong/git-notes/Chinese/‘¾ß‘±¸‘Õâ‘¾Å‘ÖÖ‘ÄÜ‘±Ø‘³É‘´ó‘ÊÂ.org" "~/Yong/git-notes/Chinese/‘Èç‘¹û‘Äã‘ÐÄ‘Çé‘²»‘ºÃ‘µÄ‘Ê±‘ºò‘¿É‘ÒÔ‘À´‘¿´‘¿´‘Õâ‘Æª‘ÎÄ‘ÕÂ.org" "~/Yong/git-notes/Emacs/Emacs.org" "~/Yong/git-notes/Emacs/Emacs.Navigation.org" "~/Yong/git-notes/Emacs/emacs.d.org" "~/Yong/git-notes/Emacs/emacs_navigation.org" "~/Yong/git-notes/English/‘Ó¢‘ÎÄ‘ÒÑ‘Èç‘´Ë‘¸ã‘Ð¦.org" "~/Yong/git-notes/English/‘Ó¢‘Óï‘Ð´‘×÷‘×îTOP80‘¸ö‘Ê¹‘ÓÃ‘¸ß‘Æµ‘´Ê‘´î‘Åä.org" "~/Yong/git-notes/English/‘Ó¢‘Óï‘´Ê‘»ã.org" "~/Yong/git-notes/French/French.org" "~/Yong/git-notes/Java/Java-collection.org" "~/Yong/git-notes/Java/Java-IDE.org" "~/Yong/git-notes/Java/Java-Lambdas.org" "~/Yong/git-notes/Java/Java.org" "~/Yong/git-notes/Java/Java-8.org" "~/Yong/git-notes/Java/My-Java.org" "~/Yong/git-notes/Java/UML-Example.org" "~/Yong/git-notes/Misc/Linux.org" "~/Yong/git-notes/agenda/defects.org" "~/Yong/git-notes/agenda/home.org" "~/Yong/git-notes/agenda/journal.org" "~/Yong/git-notes/agenda/learn.org" "~/Yong/git-notes/agenda/personal.org" "~/Yong/git-notes/agenda/work.org" "~/Yong/git-notes/org-html-themes/demo/example.org" "~/Yong/git-notes/org-html-themes/styles/readtheorg/readtheorg.org" "~/Yong/git-notes/AccuRev.org" "~/Yong/git-notes/Angular.org" "~/Yong/git-notes/Frontend.org" "~/Yong/git-notes/Git.org" "~/Yong/git-notes/Guice.org" "~/Yong/git-notes/Haskell.org" "~/Yong/git-notes/Javascript.org" "~/Yong/git-notes/Misc.org" "~/Yong/git-notes/myLinux.org" "~/Yong/git-notes/MyUbuntu.org" "~/Yong/git-notes/Quotes.org" "~/Yong/git-notes/Scala.org" "~/Yong/git-notes/org-mode+Reveal.js Slides.org" "~/Yong/git-notes/Reveal.org" "~/Yong/git-notes/sitemap.org" "~/Yong/git-notes/index.org" "~/Yong/git-notes/agendadefects.org" "~/Yong/git-notes/temp-file.org" "~/Yong/git-notes/agendadefects.org" "~/Yong/git-notes/index.org" "~/Yong/git-notes/Reveal.org" "~/Yong/git-notes/org-mode+Reveal.js Slides.org" "~/Yong/git-notes/Scala.org" "~/Yong/git-notes/Quotes.org" "~/Yong/git-notes/MyUbuntu.org" "~/Yong/git-notes/myLinux.org" "~/Yong/git-notes/Misc.org" "~/Yong/git-notes/Javascript.org" "~/Yong/git-notes/Haskell.org" "~/Yong/git-notes/Guice.org" "~/Yong/git-notes/Git.org" "~/Yong/git-notes/Frontend.org" "~/Yong/git-notes/Angular.org" "~/Yong/git-notes/AccuRev.org" "~/Yong/git-notes/org-html-themes/styles/readtheorg/readtheorg.org" "~/Yong/git-notes/org-html-themes/demo/example.org" "~/Yong/git-notes/agenda/work.org" "~/Yong/git-notes/agenda/personal.org" "~/Yong/git-notes/agenda/learn.org" "~/Yong/git-notes/agenda/journal.org" "~/Yong/git-notes/agenda/home.org" "~/Yong/git-notes/agenda/defects.org" "~/Yong/git-notes/Misc/Linux.org" "~/Yong/git-notes/Java/UML-Example.org" "~/Yong/git-notes/Java/My-Java.org" "~/Yong/git-notes/Java/Java-8.org" "~/Yong/git-notes/Java/Java.org" "~/Yong/git-notes/Java/Java-Lambdas.org" "~/Yong/git-notes/Java/Java-IDE.org" "~/Yong/git-notes/Java/Java-collection.org" "~/Yong/git-notes/French/French.org" "~/Yong/git-notes/English/‘Ó¢‘Óï‘´Ê‘»ã.org" "~/Yong/git-notes/English/‘Ó¢‘Óï‘Ð´‘×÷‘×îTOP80‘¸ö‘Ê¹‘ÓÃ‘¸ß‘Æµ‘´Ê‘´î‘Åä.org" "~/Yong/git-notes/English/‘Ó¢‘ÎÄ‘ÒÑ‘Èç‘´Ë‘¸ã‘Ð¦.org" "~/Yong/git-notes/Emacs/emacs_navigation.org" "~/Yong/git-notes/Emacs/emacs.d.org" "~/Yong/git-notes/Emacs/Emacs.Navigation.org" "~/Yong/git-notes/Emacs/Emacs.org" "~/Yong/git-notes/Chinese/‘Èç‘¹û‘Äã‘ÐÄ‘Çé‘²»‘ºÃ‘µÄ‘Ê±‘ºò‘¿É‘ÒÔ‘À´‘¿´‘¿´‘Õâ‘Æª‘ÎÄ‘ÕÂ.org"))
 (setq grep-find-history nil)
 (setq grep-history nil)
-(setq ivy-history '("*scratch*" "*Messages*" "*scratch*" "init.el" "*scratch*" "init.el" "*Warnings*" "*Messages*" "*scratch*"))
+(setq ivy-history '("AccuRev.org" "MyUbuntu.org" "*scratch*" "Haskell.org" "*scratch*" "init-my-edit.el" "init-pyim.el" "init-my-edit.el" "init.el" "*scratch*" "*Messages*" "*scratch*" "init.el" "*scratch*" "init.el" "*Warnings*" "*Messages*" "*scratch*"))
 (setq magit-revision-history nil)
-(setq minibuffer-history '("Git-note" "123"))
+(setq minibuffer-history '("Git-note" "pyim-page-next-page" "haskell-mode-enable-process-minor-mode" "haskell-mode" "vincentYC" "VChenYong" "google" "accurev" "Git-note" "123"))
 (setq org-clock-history nil)
-(setq org-refile-history nil)
-(setq org-tags-history nil)
-(setq query-replace-history nil)
+(setq org-refile-history '("Emacs" "Emacs/"))
+(setq org-tags-history '("test" "crypt" "yong"))
+(setq query-replace-history '("7z" "mp4" "mp4" "7z" "7z" "mp4" "mp4" "7z" "7z" "mp4" "mp4" "7z"))
 (setq read-expression-history nil)
 (setq regexp-history nil)
-(setq regexp-search-ring nil)
-(setq register-alist nil)
-(setq search-ring '("pyim" "init-spelling" "pyim" "chinese" "pin"))
+(setq regexp-search-ring '("my" "fly" "has" "haskell" "leet" "org" "my" "yong" "avy" "init" "h"))
+(setq register-alist '((48 . ";;\n;;\n;;\n;;\n;;\n;;\n;;\n;;\n;;")))
+(setq search-ring '("init" "init-my" "pyim" "init-spelling" "chinese" "pin"))
 (setq shell-command-history nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/yong/.emacs.d/init.el"
-  "init.el"
+  "/home/yong/Yong/My Notes/Git-Notes/.git/COMMIT_EDITMSG"
+  "COMMIT_EDITMSG"
+  'text-mode
+  '(linum-mode override-global-mode pyim-isearch-mode yas-minor-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode flycheck-mode)
+  39
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/yong/Yong/git-notes/Java/Design-pattern.org"
+  "Design-pattern.org"
+  'org-mode
+  '(linum-mode override-global-mode pyim-isearch-mode yas-minor-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode flycheck-mode)
+  2496
+  '(2490 nil)
+  nil
+  nil
+  '((show-trailing-whitespace . t) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (case-fold-search . t) (truncate-lines . t))
+  '((mark-ring (2490 2490 2490 2496))))
+
+(desktop-create-buffer 208
+  "/home/yong/.emacs.d/lisp/init-my-edit.el"
+  "init-my-edit.el"
   'emacs-lisp-mode
-  '(linum-mode yas-minor-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode elisp-slime-nav-mode company-mode ivy-mode counsel-mode flycheck-mode dimmer-mode anzu-mode)
-  2460
-  '(2385 nil)
+  '(linum-mode override-global-mode pyim-isearch-mode yas-minor-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode flycheck-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode elisp-slime-nav-mode)
+  1854
+  '(1515 nil)
   nil
   nil
   '((show-trailing-whitespace . t) (buffer-file-coding-system . utf-8-dos) (overwrite-mode) (case-fold-search . t))
-  '((mark-ring (1827 14671 6317 5749 5732 13265 14196 14192 14902 14972 15078 15711 17037 17037 20242 2634))))
+  '((mark-ring (1855 1298 271 1298 1297 1512 1512 1904 1515))))
 
 (desktop-create-buffer 208
-  "/home/yong/.emacs.d/#!home!yong!.emacs.d!lisp!init-exec-path.el#"
-  "#!home!yong!.emacs.d!lisp!init-exec-path.el#"
-  'text-mode
-  '(linum-mode yas-minor-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode dimmer-mode anzu-mode)
-  1
-  '(nil nil)
+  "/home/yong/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(linum-mode override-global-mode pyim-isearch-mode yas-minor-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode flycheck-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode elisp-slime-nav-mode)
+  2569
+  '(2313 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-file-coding-system . utf-8-emacs-unix))
+  '((show-trailing-whitespace . t) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (case-fold-search . t))
+  '((mark-ring (3493 2695 3448 1786 3491 1 1 1191 1299 3491 183 183 2989 2808 3220 3220))))
+
+(desktop-create-buffer 208
+  nil
+  "Java"
+  'dired-mode
+  '(linum-mode override-global-mode pyim-isearch-mode diredfl-mode yas-minor-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode diff-hl-dired-mode)
+  1025
+  '(1 nil)
+  t
+  '("/home/yong/Yong/git-notes/Java/")
+  nil
   '((mark-ring nil)))
 
 (desktop-create-buffer 208
-  "/home/yong/.emacs.d/custom.el"
-  "custom.el"
-  'emacs-lisp-mode
-  '(linum-mode yas-minor-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode goto-address-prog-mode paredit-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode elisp-slime-nav-mode company-mode ivy-mode counsel-mode flycheck-mode dimmer-mode anzu-mode)
-  1
-  '(nil nil)
+  "/home/yong/Downloads/scanf_s.c"
+  "scanf_s.c"
+  'c-mode
+  '(abbrev-mode linum-mode override-global-mode pyim-isearch-mode yas-minor-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode flycheck-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode)
+  1974
+  '(1249 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode))
-  '((mark-ring nil)))
+  '((show-trailing-whitespace . t) (buffer-file-coding-system . undecided-unix) (case-fold-search . t))
+  '((mark-ring (886 1974))))
 
 (desktop-create-buffer 208
-  "/home/yong/.emacs.d/lisp/init-exec-path.el"
-  "init-exec-path.el"
-  'emacs-lisp-mode
-  '(linum-mode yas-minor-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode elisp-slime-nav-mode company-mode ivy-mode counsel-mode flycheck-mode dimmer-mode anzu-mode)
-  567
+  "/home/yong/Yong/git-notes/test.hs"
+  "test.hs"
+  'haskell-mode
+  '(eldoc-mode linum-mode override-global-mode pyim-isearch-mode yas-minor-mode stack-exec-path-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode flycheck-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode intero-mode subword-mode hindent-mode)
+  12
   '(1 nil)
   nil
   nil
-  '((show-trailing-whitespace . t) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode) (case-fold-search . t))
-  '((mark-ring (567 567 567 567))))
+  '((show-trailing-whitespace . t) (tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (case-fold-search . t))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 1 1 11 12))))
 
 (desktop-create-buffer 208
-  "/home/yong/Yong/git-notes/AccuRev.org"
-  "AccuRev.org"
-  'org-mode
-  '(linum-mode yas-minor-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode company-mode ivy-mode counsel-mode flycheck-mode dimmer-mode anzu-mode)
-  5107
-  '(5107 nil)
+  "/usr/share/emacs/25.1/etc/HELLO"
+  "HELLO"
+  'text-mode
+  '(linum-mode override-global-mode pyim-isearch-mode yas-minor-mode immortal-scratch-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode beacon-mode global-auto-revert-mode company-mode anzu-mode dimmer-mode flycheck-mode view-mode)
+  2912
+  '(2445 nil)
+  t
   nil
-  nil
-  '((show-trailing-whitespace . t) (buffer-file-coding-system . utf-8-dos) (overwrite-mode) (truncate-lines . t))
-  '((mark-ring (5107 5106))))
-
-(desktop-create-buffer 208
-  "/home/yong/.emacs.d/lisp/init-editing-utils.el"
-  "init-editing-utils.el"
-  'emacs-lisp-mode
-  '(linum-mode yas-minor-mode immortal-scratch-mode auto-compile-mode auto-compile-on-load-mode projectile-mode diff-hl-mode whitespace-cleanup-mode guide-key-mode hes-mode whole-line-or-region-local-mode page-break-lines-mode beacon-mode global-auto-revert-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode symbol-overlay-mode rainbow-delimiters-mode highlight-quoted-mode aggressive-indent-mode elisp-slime-nav-mode company-mode ivy-mode counsel-mode flycheck-mode dimmer-mode anzu-mode)
-  1202
-  '(1202 nil)
-  nil
-  nil
-  '((show-trailing-whitespace . t) (buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring nil)))
+  '((show-trailing-whitespace . t) (tab-width . 32) (buffer-file-coding-system . iso-2022-7bit-unix) (case-fold-search . t))
+  '((mark-ring (2448 2448 2445 2912))))
 
