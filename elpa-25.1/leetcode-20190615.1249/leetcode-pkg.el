@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "leetcode" "20190615.1249" "An leetcode client." '((emacs "25") (dash "2.15.0") (request-deferred "0.2.0") (graphql "0.1.1") (spinner "1.7.3")) :commit "6f43be2ff3bc45bf26c874a8e4315847cc1a3102" :keywords '("extensions" "tools") :authors '(("Wang Kai" . "kaiwkx@gmail.com")) :maintainer '("Wang Kai" . "kaiwkx@gmail.com") :url "https://github.com/kaiwk/leetcode.el")
